@@ -1,12 +1,12 @@
 ﻿using Tyuiu.KolganenkoRV.Sprint2.Task4.V12.Lib;
 DataService ds = new DataService();
 
-Console.Title = "Спринт #1 | Выполнила : Колганенко Р. В. | ИБКСб-25-1";
+Console.Title = "Спринт #2 | Выполнила : Колганенко Р. В. | ИБКСб-25-1";
 //Длина строки 75 символов
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Спринт #2                                                               *");
 Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-Console.WriteLine("* Задание #2                                                              *");
+Console.WriteLine("* Задание #4                                                              *");
 Console.WriteLine("* Вариант #12                                                             *");
 Console.WriteLine("* Выполнил: Колганенко Ринат Витальевич | ИБКСб-25-1                      *");
 Console.WriteLine("***************************************************************************");
