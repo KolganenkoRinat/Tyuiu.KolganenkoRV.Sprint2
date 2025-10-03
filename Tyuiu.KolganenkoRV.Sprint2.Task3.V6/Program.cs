@@ -1,0 +1,33 @@
+﻿using Tyuiu.KolganenkoRV.Sprint2.Task3.V6.Lib;
+
+DataService ds = new DataService();
+
+Console.Title = "Спринт #1 | Выполнила : Колганенко Р. В. | ИБКСб-25-1";
+//Длина строки 75 символов
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+Console.WriteLine("* Задание #2                                                              *");
+Console.WriteLine("* Вариант #12                                                             *");
+Console.WriteLine("* Выполнил: Колганенко Ринат Витальевич | ИБКСб-25-1                      *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с    *");
+Console.WriteLine("* использованием вложенных оператор if-else, где пользователь вводит      *");
+Console.WriteLine("* значение переменной X с клавиатуры. Округлить полученное значение до 3  *");                                                                    
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+
+Console.WriteLine("Введите значение X:");
+double x = Convert.ToDouble(Console.ReadLine());
+
+
+double res = ds.Calculate(x);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+
+Console.WriteLine("Значение функции = " + res);
+Console.ReadLine();
+
