@@ -8,7 +8,7 @@ namespace Tyuiu.KolganenkoRV.Sprint2.Task7.V9.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            if ((y >= Math.Sin(x * Math.PI / 180)) && (x >= 0) && (x <= 180) && (y >= 0) && (y <= 0.5))
+            if ((y >= Math.Sin(x * Math.PI / 180)) && (x >= 0) && (x <= 180) && (y >= 0) && (y < 0.5))
             { 
                 res = true;            
             }
